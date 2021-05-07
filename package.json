@@ -1,0 +1,23 @@
+{
+  "name": "whmcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon",
+    "client": "cd frontend && npm run start",
+    "build:client": "cd frontend && npm run build",
+    "iall": "npm i && cd frontend && npm i",
+    "startboth": "npm run server & npm run client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
